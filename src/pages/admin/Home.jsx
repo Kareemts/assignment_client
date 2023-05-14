@@ -1,11 +1,11 @@
 import React from "react";
-import { PageLayout } from "../../components/admin/AdminPageLayout";
+import { AdminPageLayout } from "../../components/admin/AdminPageLayout";
 import { Dashboard } from "../../components/admin/Dashboard";
 
 export const AdminPanel = () => {
   return (
-    <PageLayout>
+    <AdminPageLayout>
       <Dashboard />
-    </PageLayout>
+    </AdminPageLayout>
   );
 };
